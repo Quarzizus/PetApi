@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:api": "NODE_ENV=production node index.js",
-    "dev:api": "nodemon index.js --ignore db.json"
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js --ignore db.json"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "node": "14.x"
   },
   "dependencies": {
-    "apollo-server-express": "2.5.0",
+    "apollo-server-express": "^2.5.0",
     "bcrypt": "3.0.6",
     "cors": "2.8.5",
     "express": "4.17.0",
